@@ -1,10 +1,8 @@
-// import { Component } from 'react';
 import PropTypes from 'prop-types'; // ES6
 
 import { Item, Image } from './ImageGalleryItem.styled';
 
 export const ImageGalleryItem = props => {
-  // const { gallery, onImageClick } = props;
   const { item, onImageClick } = props;
 
   return (

@@ -4,21 +4,6 @@ import { Overlay, Modal } from './Overlay.styled';
 
 import PortalReactDOM from 'react-dom';
 
-// class BigPicture extends Component {
-//   render() {
-//     const { link, tags, closeOverlay } = this.props;
-//     return (
-//       <Overlay onClick={closeOverlay}>
-//         <Modal>
-//           <img src={link} alt={tags} />
-//         </Modal>
-//       </Overlay>
-//     );
-//   }
-// }
-
-// export default BigPicture;
-
 export const BigPicture = props => {
   const { link, closeOverlay } = props;
   return PortalReactDOM.createPortal(
